@@ -4,7 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
-      base: '/EventPay/',  // 👈 add this line
+  base: '/EventPay-Cashless-Wallet-Application/', // 👈 must match your repo name exactly
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
