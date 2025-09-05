@@ -4,6 +4,7 @@
   import path from 'path';
 
   export default defineConfig({
+      base: '/EventPay/',  // 👈 add this line
     plugins: [react()],
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
